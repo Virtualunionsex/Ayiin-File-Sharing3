@@ -1,11 +1,11 @@
-# Kay-Fsub
+# Ayiin-File-Sharing3
 
 Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
 Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 ##
 
-**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@SharingUserbot](https://www.telegram.dog/KayzuSupport)**
+**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@AyiinXdSupport](https://www.telegram.dog/AyiinXdSupport)**
 
 ### Features
 - Sepenuhnya dapat dicustom.
@@ -22,7 +22,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 #
 ## Installation
 ### 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kayzyu/Kay-Fsub)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AyiinXd/Ayiin-File-Sharing3)
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
 <a href="https://youtu.be/O2tieQgzYZg">
