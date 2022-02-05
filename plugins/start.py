@@ -115,17 +115,19 @@ async def start_command(client: Client, message: Message):
                 pass
     else:
         buttons = [
-            [InlineKeyboardButton("•Tᴇɴᴛᴀɴɢ Sᴀʏᴀ", callback_data="about")],
+            [InlineKeyboardButton("🔅 ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ 🔅", callback_data="about")],
             [
-                InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink),
-                InlineKeyboardButton("•Gʀᴏᴜᴘ•", url=client.invitelink2),
+                InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink),
+                InlineKeyboardButton("♻️𝗚𝗥𝗢𝗨𝗣♻️", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink3),
+                InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink3), 
+            ],  
             [
-                InlineKeyboardButton("•Tᴜᴛᴜᴘ", callback_data="close"),
+                InlineKeyboardButton("🔅 ᴛᴜᴛᴜᴘ 🔅", callback_data="close"),
             ],
         ]
+        await message.reply_text(
             text=START_MSG.format(
                 first=message.from_user.first_name,
                 last=message.from_user.last_name,
@@ -149,18 +151,18 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•Cʜᴀɴɴᴇʟ​•", url=client.invitelink), 
-            InlineKeyboardButton("•Gʀᴏᴜᴘ•", url=client.invitelink2),
+            InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink), 
+            InlineKeyboardButton("♻️𝗚𝗥𝗢𝗨𝗣♻️", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink3),
+            InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink3), 
         ],
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="•Cᴏʙᴀ Lᴀɢɪ",
+                    text="🔅ᴄᴏʙᴀ ʟᴀɢɪ🔅",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
