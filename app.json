@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/AyiinXd/Ayiin-File-Sharing3",
+  "repository": "https://github.com/Kayzyu/Ayiin-File-Sharing3",
   "logo": "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg",
   "env": {
     "TG_BOT_TOKEN": {
