@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6009075490:AAGfAujNvlmAE6WBnvKiLMHdTrBLKrkGnSk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6057654094:AAFSJQuoO8p4czYxYKF3LIQ4JF4VPw26ZhE")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -18,7 +18,7 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001745027629"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001735520450"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "2057288964"))
@@ -27,15 +27,15 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "2057288964"))
 OWNER = os.environ.get("OWNER", "ysmnhill")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://aamqdagl:m29QX1cpf1vh4iAywdFw9F3GhdifeqGn@fanny.db.elephantsql.com/aamqdagl")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://yuzzzapy:r_UDcq7Pea_shyALg0JdUaGoYKYJjkEs@fanny.db.elephantsql.com/yuzzzapy")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "dhixlvy")
-GROUP = os.environ.get("GROUP", "+pm1cDoIN_DdjYzk1")
+CHANNEL = os.environ.get("CHANNEL", "moanvibesable")
+GROUP = os.environ.get("GROUP", "culturenationmusic")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001591782894"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001292751645"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001648445399"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001896779969"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001569500029"))
