@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6141361164:AAHn1B-IgiATySPm3MQjsS8v2L3lXAikZ0Y")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6210271467:AAGd5AXrj4Q0aMF_ZZm00zo6Eb-OetH6jP4")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -18,44 +18,44 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001561154072"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001742908548"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2057288964"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1441775402"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "ysmnhill")
+OWNER = os.environ.get("OWNER", "fckwl")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://bffmkenf:BjawXH4VDlYln5e5PG_kJrs6hFG9Ax4x@isilo.db.elephantsql.com/bffmkenf")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://zxhomgen:e4rPGbjNsR1nxg2NiOL8sFwW5zBNtwaz@isilo.db.elephantsql.com/zxhomgen")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "moanvibesable")
-GROUP = os.environ.get("GROUP", "culturenationmusic")
+CHANNEL = os.environ.get("CHANNEL", "none")
+GROUP = os.environ.get("GROUP", "none")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001631318005"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001609845276"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001851570568"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001884239305"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001528080636"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001613637975"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Promo VIP 9 grup/channel dengan total puluhan ribu video hanya 50K hub @cyellaku @panggilaja_m.</b>",
+    "<b>Hello {first}</b>\n\n<b>Join dulu jika mau dapat konten free</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1908660708 1715348447 2057288964").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5360457944 1715348447 1441775402").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\Promo VIP 9 group / channel dengan puluhan ribu video hanya 50K hub @cyellaku @panggilaja_m</b>",
+    "<b>Hello {first}\n\Join group and channelnya dulu yah, baru bisa dapat konten free </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
@@ -65,8 +65,8 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(1715348447)
-ADMINS.append(1908660708)
-ADMINS.append(2057288964)
+ADMINS.append(1441775402)
+ADMINS.append(5360457944)
 ADMINS.append(0)
 ADMINS.append(0)
 
