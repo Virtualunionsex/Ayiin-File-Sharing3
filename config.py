@@ -45,7 +45,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Join dulu jika mau dapat konten free</b>",
+    "<b>Hello {first}</b>\n\n<b>Join dulu jika mau dapat konten free \n\n Order Gudang VVIP 69 hanya di @Ordervvip_69bot total 50 ribuan video hanya dibandrol 100K saja</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5360457944 1715348447 1441775402").split())]
@@ -55,7 +55,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\Join group and channelnya dulu yah, baru bisa dapat konten free </b>",
+    "<b>Hello {first}\n\Join group and channelnya dulu yah, baru bisa dapat konten free \n\n OrderPromo Gudangvvip 69 hanya 100K dengan total video lebih dari 50 ribuhun @Ordervvip_69bot </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
