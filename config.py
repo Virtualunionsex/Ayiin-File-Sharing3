@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6210271467:AAGd5AXrj4Q0aMF_ZZm00zo6Eb-OetH6jP4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5684493105:AAFxzN3NfArm6jwF7wzs58vCqM7s6_1dup0")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -18,27 +18,27 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001742908548"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001744574588"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1441775402"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "fckwl")
+OWNER = os.environ.get("OWNER", "panggil_y")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://zxhomgen:e4rPGbjNsR1nxg2NiOL8sFwW5zBNtwaz@isilo.db.elephantsql.com/zxhomgen")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://quqizcei:nt2LCz_DNInLBNuTSPVLR-twcE1O8kC0@mel.db.elephantsql.com/quqizcei")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "none")
-GROUP = os.environ.get("GROUP", "none")
+CHANNEL = os.environ.get("CHANNEL", "nakama_asl")
+GROUP = os.environ.get("GROUP", " executive02")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001851570568"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001884239305"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001846286966"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001941542167"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001613637975"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001871922677"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -48,7 +48,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Join dulu jika mau dapat konten free \n\n Order Gudang VVIP 69 hanya di @Ordervvip_69bot total 50 ribuan video hanya dibandrol 100K saja</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5360457944 1715348447 1441775402").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1715348447 2057288964 5078121647 ").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
