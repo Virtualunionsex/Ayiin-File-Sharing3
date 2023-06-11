@@ -55,7 +55,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\Join group and channelnya dulu yah, baru bisa dapat konten free. \n hubungi @teknisi69_bot jika bot mati</b>",
+    "<b>Hello {first}\n\nJoin group and channelnya dulu yah, baru bisa dapat konten free. \n hubungi @teknisi69_bot jika bot mati</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
